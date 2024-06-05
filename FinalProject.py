@@ -5,9 +5,9 @@ from gtts import gTTS
 from io import StringIO
 import pdfplumber
 
-#key = "sk-proj-1B9XOQHXAgdCBJtyRYqJT3BlbkFJMr7l4qQgUfJzHxyibjuk"
-#client = OpenAI(api_key=key)
-client = OpenAI()
+key = "sk-proj-pE7dilOwGcxzAGgk0FkXT3BlbkFJCWTZnIj90X8vg1O9d5Ce"
+client = OpenAI(api_key=key)
+#client = OpenAI()
 
 st.set_page_config(layout="wide")
 st.header("Ajay's Translate and Text-to-Speech Demo")
